@@ -1,7 +1,7 @@
 #multiple if and elif conditions
 
 name = input("Please input your name --->")
-age = int(input("Please inout your age --->"))
+age = int(input("Please input your age --->"))
 
 if age >= 0 and age <= 5 :
             print("That age is considered as INFANT")
