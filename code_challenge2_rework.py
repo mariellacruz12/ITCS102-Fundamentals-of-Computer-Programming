@@ -10,7 +10,7 @@ print("Money to Deposit ------>", money, "PHP")
 
 #computation here
 
-wankey = money // 1000 #19, 19.863
+wankey = money // 1000
 wankey1 = money % 1000
 
 paybhan = wankey1 // 500
