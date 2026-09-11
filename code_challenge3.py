@@ -3,12 +3,11 @@
 
 sender = input("Please Input Your Name:")
 type_of_item = input("Type Item Name:")
-isFragile = input("Is the item Fragile? (T/F) : ")
-isRush = input("Is the item Rush? (T/F) : ")
+isFragile = bool(input("Is the item Fragile? (T/F) : ")== "T")
 weight = float(input("Enter Weight in kg : "))
 distance = float(input("Enter Distance in km : "))
-is_express = input("Is the shipment via Express? (T/F) : ")
-is_international = input("Is the shipment via International? (T/F) : ")
+is_express = bool(input("Is the shipment via Express? (T/F) : ")== "T")
+is_international = bool(input("Is the shipment via International? (T/F) : ")== "T")
 
 #Base Cost
 
@@ -37,6 +36,5 @@ print("Sender Name:", sender)
 print("Item Name:", type_of_item)
 print("Item weight:", weight)
 print("Base Cost:", base_cost)
-print("TOTAL COST: $", total)
-
+print("TOTAL COST: ", total)
 
