@@ -16,7 +16,7 @@ base_cost = (weight * 2.50) + (distance * 0.15)
 
 #Pricing Tiers
 
-if not is_express or not is_international : 
+if weight is <= 2.0 distance <= 100, and not is_express or not is_international : 
           total = 0.00
 
 elif is_express and is_international :
