@@ -1,8 +1,8 @@
 print("==========Welcome to the Loan Application System!==========")
 print("==========Please log in to continue.==========")
 
-correct_user="admin123"
-correct_pass="mahalparinkita"
+correct_user="ifeelsoBSITrn"
+correct_pass="akalakotypetypelang"
 
 username=input("Enter your username ---> ")
 password=input("Enter your password ---> ")
