@@ -1,5 +1,3 @@
-#DI PA PO TAPOS TT
-
 print("==========Welcome to the Loan Application System!==========")
 print("==========Please log in to continue.==========")
 
@@ -19,12 +17,14 @@ print("==========Please provide the following information to determine your elig
 
 name=input("Enter your name ---> ")
 age=int(input("Enter your age ---> "))
+job_title=input("What is your job title? ---> ")
 
 if age < 21 or age > 65:
     print("==========Sorry, you are not eligible for a loan due to age restrictions.==========")
     exit()
 else:
     print("==========You are eligible for a loan based on your age.==========")
+    print("==========Please provide additional information to determine your eligibility for a loan.==========")
 
 collateral=input("What are your collaterals? ---> ")
 value_of_collateral=eval(input("What is the value of your collateral? ---> "))
@@ -34,10 +34,10 @@ if value_of_collateral <= 30000:
     print("==========Sorry, your collateral value is too low to secure a loan.==========")
     exit()
 else:
-    print("==========Your collateral value is sufficient to secure a loan.==========")
-    print("==========Please proceed to the next step of the loan application process.==========")
+    print("==========Your loan amount is approved with a base interest rate of 5%.=========")
+    print("Provide your credit score history and annual income to determine your eligibility for a loan.")
 
-age = int(input("Enter your age ---> "))
+age=int(input("Enter your age ---> "))
 is_employed = bool(input("Are you currently employed? ---> "))
 credit_score = eval(input("Credit Score History ---> "))
 annual_income = eval(input("How much is your annual income---> "))
