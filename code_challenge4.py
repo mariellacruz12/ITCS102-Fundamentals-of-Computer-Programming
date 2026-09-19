@@ -1,3 +1,5 @@
+#LOAN APPLICATION SYSTEM
+
 print("==========Welcome to the Loan Application System!==========")
 print("==========Please log in to continue.==========")
 
@@ -16,16 +18,7 @@ else:
 print("==========Please provide the following information to determine your eligibility for a loan.==========")
 
 name=input("Enter your name ---> ")
-age=int(input("Enter your age ---> "))
 job_title=input("What is your job title? ---> ")
-
-if age < 21 or age > 65:
-    print("==========Sorry, you are not eligible for a loan due to age restrictions.==========")
-    exit()
-else:
-    print("==========You are eligible for a loan based on your age.==========")
-    print("==========Please provide additional information to determine your eligibility for a loan.==========")
-
 collateral=input("What are your collaterals? ---> ")
 value_of_collateral=eval(input("What is the value of your collateral? ---> "))
 amount_of_loan=eval(input("How much is your loan amount? ---> "))
@@ -43,7 +36,10 @@ credit_score = eval(input("Credit Score History ---> "))
 annual_income = eval(input("How much is your annual income---> "))
 has_collateral = bool(input("Do you have any collateral? ---> "))
 
-if age >= 21 and is_employed == True:
+if age < 21 or age > 65 == True:
+    print("==========Sorry, you are not eligible for a loan due to age restrictions.==========")
+    exit()
+
     if credit_score >= 750:
         base_interest_rate_tier1 = 5.0
         if annual_income >= 100000:
