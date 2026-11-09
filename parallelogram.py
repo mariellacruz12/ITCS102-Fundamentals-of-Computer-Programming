@@ -1,7 +1,7 @@
 n=7
 r=4
 
-for y in range(n):
+for y in range(n+1):
     for x in range(r):
         if (x+y==r-1 and y<=3) or (x==0 and y>=3):
             print('*', end=' ')
