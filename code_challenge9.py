@@ -11,6 +11,7 @@ for x in range (7):
 print()
 print("===============================")
 print()
+
 #task3
 
 for x in range (5):
