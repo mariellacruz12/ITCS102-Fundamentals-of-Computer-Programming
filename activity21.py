@@ -1,44 +1,24 @@
 #JEEPNEY SIMULATOR
 
-#PART 1: EVERY LIST IS A JEEPNEY MOMENT
-
-passengers = ['Ana', 'Ben', 'Carla']
-
-passengers.append('Dan')
-print(passengers)
-passengers.insert(0, 'Lola')
-print(passengers)
-passengers.remove('Ben')
-print(passengers)
-x=passengers.pop('Dan')
-y=passengers.pop(0, 'Lola')
-len(passengers)
-Ana=bool(input('Is Ana a passenger?: '))==True
-passengers.reverse()
-
-print()
-print('=================================================================================')
-print()
-
-#PART 2: THE INTERACTIVE JEEPNEY
 route=['Terminal', 'Perez Park', 'Pacific Mall']
 passengers=[]
 SEATS=6
 FARE=13
 total=0
 
+print('1 Sakay')
+print('2 Priority seat')
+print('3 Para po!')
+print('4 Baba sa pinto')
+print('5 Baba sa harap')
+print('6 Seat check')
+print('7 Balikan 8 Exit')
+    
 while True:
     print()
     print('Sakay:', passengers)
     print(len(passengers), 'of', SEATS, 'seats')
-    print('1 Sakay')
-    print('2 Priority seat')
-    print('3 Para po!')
-    print('4 Baba sa pinto')
-    print('5 Baba sa harap')
-    print('6 Seat check')
-    print('7 Balikan 8 Exit')
-    choice=input('Choice')
+    choice=input('Choice: ')
 
     if choice == '1':
         if len(passengers) == SEATS:
