@@ -6,7 +6,7 @@ liyue=['Zhongli', 'Xiao', 'Xingqiu', 'Chongyun', 'Yanfei', 'Baizhu']
 inazuma=['Raiden Shogun', 'Kaedehara Kazuha', 'Arataki Itto', 'Kamisato Ayato']
 sumeru=['Nahida', 'Tighnari', 'Cyno', 'Kaveh', 'Alhaitham', 'Wanderer']
 fontaine=['Furina', 'Neuvillette', 'Wriothesley', 'Navia']
-natlan=['Chasca', 'Ifa', 'Ororon', 'Kinich']
+natlan=['Chasca', 'Ororon']
 nod_krai=['Columbina', 'Flins']
 snezhnaya=['Tsaritsa', 'Arlecchino', 'Sandrone', 'Mitya', 'Valeriy', 'Pantalone']
 
