@@ -37,5 +37,5 @@ Kamisato_Ayato=['He is the current head of the Kamisato Clan, the older brother 
 
 #Sumeru
 Nahida=['As Lesser Lord Kusanali and the Dendro Archon, she strives to have a stronger presence in Sumeru now that she has been freed from her extensive confinement in the Sanctuary of Surasthana']
-Tighnari=['Tighnari is the stern Chief Officer of the Forest Rangers and Collei's mentor. Despite his intelligence, he prefers to live a solitary life in the depths of Avidya Forest rather than in the ivory tower of Sumeru Akademiya']
+Tighnari=['Tighnari is the stern Chief Officer of the Forest Rangers and Collei s mentor. Despite his intelligence, he prefers to live a solitary life in the depths of Avidya Forest rather than in the ivory tower of Sumeru Akademiya']
 
