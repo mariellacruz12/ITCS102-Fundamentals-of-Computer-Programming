@@ -9,22 +9,22 @@ import pygame
 # ============================================================
 #  PART 1: GAME SETTINGS  (safe to change: start here!)
 # ============================================================
-GAME_TITLE = "Snake"
-CELL_SIZE = 25           # size of one square, in pixels
-GRID_WIDTH = 24          # how many squares across
-GRID_HEIGHT = 18         # how many squares down
-SPEED = 8                # moves per second: higher = faster snake
-START_LENGTH = 3         # how long the snake is at the start
-POINTS_PER_FOOD = 1      # score for each food eaten
-GROW_PER_FOOD = 1        # how many squares the snake grows per food
-WALLS_KILL = True        # False = snake goes through walls to the other side
+GAME_TITLE = "MAMA MO NANUNUKLAW"
+CELL_SIZE = 40
+GRID_WIDTH = 32
+GRID_HEIGHT = 24
+SPEED = 15
+START_LENGTH = 5
+POINTS_PER_FOOD = 50
+GROW_PER_FOOD = 5
+WALLS_KILL = False
 
 # Colors are (red, green, blue), each from 0 to 255
 BACKGROUND_COLOR = (20, 24, 38)
 GRID_COLOR = (32, 38, 56)
-SNAKE_COLOR = (90, 200, 120)
-HEAD_COLOR = (50, 150, 80)
-FOOD_COLOR = (235, 80, 80)
+SNAKE_COLOR = (255, 20, 147)
+HEAD_COLOR = (30, 144, 255)
+FOOD_COLOR = (0, 255, 0)
 TEXT_COLOR = (240, 240, 240)
 
 # ============================================================
